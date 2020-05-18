@@ -7,7 +7,9 @@ let botones = document.getElementsByClassName('btn_header');
 let cerrado = true;
 
 function menus(){
+
     let desplazamiento_actual = window.pageYOffset;
+    //console.log(desplazamiento_actual);
 
     if(desplazamiento_actual <= 300){
         nav.classList.remove('nav2');
